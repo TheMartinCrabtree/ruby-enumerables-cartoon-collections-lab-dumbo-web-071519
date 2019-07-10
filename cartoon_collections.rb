@@ -7,12 +7,13 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
-  array.each do |name|
+  return_array = []
+  array.collect do |name|
     name = name.to_s.capitalize + "!"
     
   end
   
-  return array
+  return return_array
 end
 
 def long_planeteer_calls(array)
